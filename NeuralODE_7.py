@@ -39,7 +39,7 @@ random.seed(SEED)
 torch.manual_seed(SEED)
 
 # Učitaj CSV fajl
-df = pd.read_csv("/Users/milan/Desktop/GHQ/data/loto7_4506_k87.csv", header=None)
+df = pd.read_csv("/data/loto7_4506_k87.csv", header=None)
 data = df.values
 
 # X - sve kombinacije osim poslednje
@@ -145,5 +145,5 @@ with torch.no_grad():
     print("\n🎯 Predikcija sledeće loto kombinacije:", pred_unique)
 print()
 """
-🎯 Predikcija sledeće loto kombinacije: [5, 10, 15, 20, 25, 30, 35]
+🎯 Predikcija sledeće loto kombinacije: [5, 10, x, x, x, 30, 35]
 """
