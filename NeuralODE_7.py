@@ -1,10 +1,27 @@
 """
-https://medium.com/@chatterjee.subhasish/demystifying-neural-ordinary-differential-equations-a-gentle-tutorial-175ec3b685e2
-"""
-
-"""
 Neural Ordinary Differential Equations
 PyTorch
+"""
+
+
+"""        
+=== System Information ===
+Python version                 3.11.13        
+macOS Apple                    Tahos 
+Apple                          M1
+"""
+
+
+"""
+Loto Skraceni Sistemi 
+https://www.lotoss.info
+ABBREVIATED LOTTO SYSTEMS
+"""
+
+
+"""
+svih 4506 izvlacenja
+30.07.1985.- 04.11.2025.
 """
 
 
