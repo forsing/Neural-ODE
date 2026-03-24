@@ -61,7 +61,7 @@ def _denorm_loto(arr: np.ndarray) -> np.ndarray:
 
 
 # Učitaj CSV fajl
-df = pd.read_csv("/Users/4c/Desktop/GHQ/data/loto7_4584_k23.csv", header=None)
+df = pd.read_csv("/data/loto7_4584_k23.csv", header=None)
 df = df.iloc[:, :7]
 data = df.values.astype(np.float32)
 
@@ -178,6 +178,6 @@ with torch.no_grad():
     print("   ", " ".join(str(int(x)) for x in pred_int))
 print()
 """
-🎯 Predikcija sledeće loto kombinacije (pozicije 1–7): [5, 10, 15, 19, 25, 30, 35]
-    5 10 15 19 25 30 35
+🎯 Predikcija sledeće loto kombinacije (pozicije 1–7): [5, 10, x, 19, y, z, 35]
+    5 10 x 19 y z 35
 """
